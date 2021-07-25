@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('./JetBrainsMono-Regular.ttf');
+}
+
+body {
+  font-family: 'JetBrains Mono';
+  overflow: hidden;
+  margin-top: 0;
+  margin-left: 0;
+  background-color: #7c83fd;
+  color: rgb(16, 17, 17);
+  overflow-x: hidden;
+  height: 100vh;
+  cursor: default;
+}
+.two {
+  background-color: #feff94;
+}
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+section {
+  animation: fadein 1s ease-in-out;
+}
+
+h1 {
+  color: #96baff;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+}
+h2 {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+}
+.links {
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  display: flex;
+  justify-content: space-between;
+  width: 10vw;
+}
+a {
+  cursor: pointer;
+  color: #7dedff;
+  text-decoration: none;
+}
+#on {
+  color: #96baff;
+}
+h1,
+h2,
+a {
+  font-size: 18px;
+}
